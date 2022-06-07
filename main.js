@@ -971,8 +971,9 @@
           }
 
           function Ge(e) {
-              console.log(e)
-              return e > 604800 ? "cooling" : e < 604800 ? e < 432e3 ? e < 96e3 ? "solarflare" : "hypernova" : "supernova" : "data"
+              var sXD = e > 604800 ? "cooling" : e < 604800 ? e < 432e3 ? e < 96e3 ? "solarflare" : "hypernova" : "supernova" : "data"
+              console.log(sXD)
+              return sXD
           }
 
           function Je(e) {
